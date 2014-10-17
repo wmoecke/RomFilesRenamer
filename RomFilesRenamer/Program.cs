@@ -93,7 +93,7 @@ namespace RomFilesRenamer
 
 			while (true)
 			{
-				Console.Write(string.Format("About to rename {0} files. Confirm [Y|N]?", successCounter));
+				Console.Write(string.Format("About to rename {0} files. Proceed? [Y|N]", successCounter));
 				yesNoOption = Console.ReadLine();
 
 				if (yesNoOption.Trim().ToUpper() == "Y" || yesNoOption.Trim().ToUpper() == "N")
